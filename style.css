@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+    
+}
+#span{
+    color:#DF0F17 ;
+}
+.span{
+    color:#DF0F17 ;
+    animation-name: experience;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    position: relative;
+    
+}
+@keyframes experience {
+    0%{
+        top: 0;
+    }
+    50%{
+        top: 20px;
+    }
+    100%{
+        top: 0;
+    }
+}
+
+
+.font-size{
+    font-size: 15px;
+}
+
+.half-weight{
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 2%;
+
+
+}
+.half-weight img{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    
+    background-color: #1dbd18;
+    border-radius: 20px;
+    
+
+}
+
+
+.link{
+    text-decoration: none;
+    background-color: #1dbd18;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 10px 15px 20px;
+}
+.link:hover{
+    background-color: #e8ef12;
+    border: 1.5px solid #1dbd18;
+    color: green;
+    
+}
+.Experience{
+   text-align: center;
+    margin-bottom: 35px;
+    font-size: 40px;
+   
+}
+.finished{
+float: left;
+
+
+margin-left: 10px;
+}
+.color{
+    color:#E01319;
+}
+#last{
+    box-shadow: 10px 15px 25px #E01319 ;
+    padding:50px 0px;
+    height: 100%;
+    padding-left: 25px;
+    border-radius: 6px;
+    border: 3px solid goldenrod;
+}
+#last:hover{
+    box-shadow: 10px 20px 30px rgb(185, 176, 176);
+    border: 3px dotted  goldenrod;
+}
+footer {
+    clear: both;
+    text-align: center;
+    padding: 20px;
+    
+    margin-top: 30px;
+}
+.spann{
+    color: #DF0F17;
+    font-size: 20px;
+}
+@media screen and ( max-width:600px ) {
+    #last{
+        width: 90%;
+        float: left;
+        margin: 20px;
+    }
+}
+
+
